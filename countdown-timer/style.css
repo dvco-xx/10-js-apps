@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background-image: url("./countdown-timer/images/hnybg.jpg");
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+
+span {
+    display: block;
+    margin-top: 5px;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+.countdown-el {
+    margin-top: 8rem;
+    align-items: center;
+    text-align: center;
+}
+
+.countdown-el p {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.days-c p,
+.hpurs-c p,
+.mins-c p,
+.seconds-c p {
+    width: 190px;
+}
