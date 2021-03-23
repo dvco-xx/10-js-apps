@@ -98,7 +98,7 @@ header button {
 
 .fav-meals li span {
     display: inline-block;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -200,13 +200,13 @@ header button {
 .refresh {
   display: flex;
   margin: 1rem auto;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1rem;
   height: 40px;
-  width: 40%;
+  width: 50%;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  background-color: rgb(190, 107, 232);
+  background-color: rgb(167, 87, 208);
   color: #fff;
   font-family: inherit;
   font-size: 16px;
@@ -216,5 +216,5 @@ header button {
 }
 
 .refresh:hover {
-background-color: rgb(164, 89, 201);
+background-color: rgb(103, 50, 130);
 }
