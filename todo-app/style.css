@@ -18,11 +18,11 @@ body {
 
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     opacity: 0.4;
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 ul h2 {

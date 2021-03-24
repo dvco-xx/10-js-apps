@@ -2,7 +2,7 @@ const form = document.getElementById("form");
 const input = document.getElementById("input");
 const todosUl = document.getElementById("todos");
 
-const todos = JSON.parse(localStorage.getItem("todo"));
+const todos = JSON.parse(localStorage.getItem("todos"));
 
 if (todos) {
   todos.forEach((todo) => {
@@ -20,7 +20,7 @@ function addToDo(todo) {
   let todoText = input.value;
 
   if (todo) {
-    todoText = input.text;
+    todoText = todo.text;
   }
 
   if (todoText) {
@@ -29,7 +29,7 @@ function addToDo(todo) {
       todoEl.classList.add("completed");
     }
 
-    todoEl.innerHTML = todoText;
+    todoEl.innerText = todoText;
 
     todoEl.addEventListener("click", (e) => {
       todoEl.classList.toggle("completed");
