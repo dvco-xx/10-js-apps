@@ -64,7 +64,8 @@ small {
 
 .todos {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: transparent;
+    color: rgb(225, 110, 34);
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -72,12 +73,13 @@ small {
 }
 
 .todos li {
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e554;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* border-radius: 5px; */
     font-size: 1rem;
     font-weight: 400;
     padding: 1rem;
     cursor: pointer;
-    border-radius: 10px;
 }
 
 .todos li.completed {
