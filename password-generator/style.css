@@ -10,23 +10,28 @@ body {
     background-color: rgb(27, 24, 29);
     color: white;
     display: flex;
-    align-items: center;
     justify-content: center;
     font-family: "Poppins", sans-serif;
-    margin: 0;
-    min-height: 100vh;
+    margin-top: 170px;
+    min-height: 40vh;
 }
 
 h1 {
     position: absolute;
     top: 0;
-    margin-top: 75px;
+    margin-top: 70px;
+}
+
+h3 {
+    position: relative;
+    margin-bottom: 2.5rem;
 }
 
 .pw-container {
     background-color: #77ec02;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     min-width: 400px;
+    margin-top: 40px;
 }
 
 .pw-header {
@@ -83,7 +88,7 @@ h1 {
 }
 
 .generate {
-    background-color: rgb(22, 82, 29);
+    background-color: rgb(14, 56, 19);
     color: white;
     border: none;
     display: block;
@@ -96,6 +101,19 @@ h1 {
 }
 
 .generate:hover {
-    background-color: rgb(14, 56, 19);
+    background-color:  rgb(9, 40, 13);
     color: white;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    padding-right: 3rem;
+    vertical-align: auto;
+}
+
+.hint {
+    color: #77ec02;
 }

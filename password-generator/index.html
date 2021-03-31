@@ -12,7 +12,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Password Generator App</h1>
+    <h1>Secure Password Generator App</h1>
+    <section class="info">
+      <div class="info-body">
+        <h3>--- How to use the App ---</h3>
+        <ol>
+          <li><small>Type or select password length.</small></li>
+          <li><small>Check the boxes for a desired combination.</small></li>
+          <li><small>Click the "Generate Password" button. </small></li>
+          <li><small>Hover the cursor over your newly generated password to copy to clipboard. <br/> <span class="hint">Hint:</span> The more boxes you tick, the stronger the combination generated.</small></li>
+        </ol>
+      </div>
+    </section>
+
     <div class="pw-container">
       <div class="pw-header">
         <div class="pw">
@@ -23,7 +35,7 @@
       <div class="pw-body">
         <div class="form-control">
           <label for="len">Password Length</label>
-          <input id="len" value="15" type="number" min="2" max="20">
+          <input id="len" value="15" type="number" min="1" max="20">
         </div>
         <div class="form-control">
           <label for="upper">Contain Uppercase Letters</label>
@@ -44,6 +56,7 @@
         <button class="generate" id="generate">Generate Password</button>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
